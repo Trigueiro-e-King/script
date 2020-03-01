@@ -11,8 +11,8 @@ local Keys = {
 }
 
 
-vRPAdvancedShop = {}
+vRPAdvancedEmp = {}
 vRP = Proxy.getInterface("vRP")
 vRPserver = Tunnel.getInterface("vRP","vRP")
-ASserver = Tunnel.getInterface("vrp_blipcasas","vrp_blipcasas")
-Tunnel.bindInterface("vrp_blipcasas",vRPAdvancedShop)
+ASserver = Tunnel.getInterface("vrp_empregos","vrp_empregos")
+Tunnel.bindInterface("vrp_empregos",vRPAdvancedEmp)
